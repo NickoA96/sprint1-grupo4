@@ -1,0 +1,12 @@
+
+
+create database proyectogrupal;
+
+use proyectogrupal;
+
+create table productos(
+idProducto int not null auto_increment primary key,
+nombre varchar(80) not null,
+marca varchar(80) not null,	
+precio int(80) not null
+);
