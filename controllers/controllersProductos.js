@@ -25,7 +25,7 @@ const productosPost = (req, res) => {
         })
         }else{
             let confirmacion = 'Producto agregado correctamente..';
-            conexion.query('INSERT INTO px7xe91xpkgz454v.productos SET ?', {nombre, marca, precio}, 
+            conexion.query('INSERT INTO kznss1or9svmzpk3.productos SET ?', {nombre, marca, precio}, 
     (error, results) => {
             res.render('productos', {
                 titulo: 'Agregar producto',
